@@ -2,9 +2,9 @@ import React from "react";
 
 const SignIn = () => {
   return (
-    <div className="flex h-screen justify-center items-center relative rounded-r-3xl bg-backgroundGrey">
+    <div className=" width-full flex flex-col sm:flex-row h-screen justify-center items-center relative bg-white">
       {/* Left Side - Form */}
-      <div className="absolute w-[578px] h-[708px] left-[131px] top-[96px] flex flex-col justify-center items-center  bg-white p-10  ">
+      <div className="w-full sm:w-[578px] h-full sm:h-[708px] flex flex-col justify-center items-center bg-white p-6 sm:p-10">
         <h1 className="text-3xl font-bold mb-2">
           Event <span className="text-purple-600">Hive</span>
         </h1>
@@ -44,11 +44,11 @@ const SignIn = () => {
       </div>
 
       {/* Right Side - Image and CTA */}
-      <div className="absolute w-[600px] h-[900px] left-[840px] top-0 flex items-center justify-center bg-cover bg-center rounded-r-3xl" style={{ backgroundImage: "url('/Sign.png')" }}>
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="w-full sm:w-[600px] h-[400px] sm:h-full flex items-center justify-center bg-cover bg-center rounded-r-3xl sm:left-[840px]" style={{ backgroundImage: "url('/Sign.png')" }}>
+        <div className="absolute inset-0 "></div>
         <div className="relative text-center text-white">
           <h2 className="text-2xl font-bold mb-2">Hello Friend</h2>
-          <p className="text-sm mb-4">To keep connected with us provide us with your information</p>
+          <p className="text-sm mb-4">To keep connected with us, provide us with your information</p>
           <button onClick={() => window.location.href='/signup'} className="bg-white text-gray-700 px-6 py-2 rounded-lg hover:bg-gray-200 transition">
             Signup
           </button>

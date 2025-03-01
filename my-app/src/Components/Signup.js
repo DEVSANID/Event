@@ -8,7 +8,7 @@ const SignUp = () => {
       <div className="w-1/2 relative">
         <img
           src="/signupp.png" alt="Signupp"
-          className="h-full w-full object-cover rounded-l-2xl "
+          className="w-full sm:w-[700x] h-[400px] sm:h-full flex items-center justify-center bg-cover bg-center rounded-l-3xl sm:right-[840px] "
         />
         
         {/* Overlay Text */}
