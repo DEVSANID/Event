@@ -7,11 +7,11 @@ export default function EventDetails() {
       {/* Navbar */}
       <div className="flex justify-between items-center p-6 shadow-md">
         <h1 className="text-2xl font-bold">
-          Event <span className="text-purple-500">Hive</span>
+          Event <span className="text-primary">Hive</span>
         </h1>
         <div className="space-x-4">
           <button className="text-gray-700">Login</button>
-          <button className="bg-purple-500 text-white px-4 py-2 rounded-lg">
+          <button className="bg-primary text-white px-4 py-2 rounded-lg">
             Signup
           </button>
         </div>
@@ -24,7 +24,7 @@ export default function EventDetails() {
       >
         {/* Back Button */}
         <div className="absolute top-4 left-4">
-          <button className="bg-purple-500 px-4 py-2 rounded-lg">Back</button>
+          <button className="bg-primary px-4 py-2 rounded-lg">Back</button>
         </div>
 
         {/* Event Details */}
@@ -51,7 +51,7 @@ export default function EventDetails() {
           <p className="text-sm font-semibold">Date & time</p>
           <p className="font-bold text-lg">Saturday, March 18, 2023, 9:30 PM</p>
           <button className="text-blue-500 mt-2 underline">Add to calendar</button>
-          <button className="bg-purple-500 text-white w-full mt-4 py-2 rounded-lg">
+          <button className="bg-primary text-white w-full mt-4 py-2 rounded-lg">
             Book now
           </button>
           <button className="bg-gray-300 w-full mt-2 py-2 rounded-lg">
@@ -76,7 +76,7 @@ export default function EventDetails() {
         <div className="bg-white p-4 shadow rounded">
           <h3 className="text-lg font-semibold mb-2">Date & Time</h3>
           <p>Saturday, March 18 2023, 9:30PM</p>
-          <button className="bg-purple-600 text-white w-full mt-4 py-2 rounded">Book Now</button>
+          <button className="bg-primary text-white w-full mt-4 py-2 rounded">Book Now</button>
         </div>
       </div>
 
@@ -105,7 +105,7 @@ export default function EventDetails() {
                 placeholder="Enter your email"
                 className="p-2 rounded text-black w-full sm:w-64 border border-gray-300 placeholder-gray-500"
               />
-              <button className="bg-purple-600 text-white mt-2 sm:mt-0 sm:ml-2 py-2 px-4 rounded hover:bg-purple-700 transition">
+              <button className="bg-primary text-white mt-2 sm:mt-0 sm:ml-2 py-2 px-4 rounded hover:bg-purple-700 transition">
                 Subscribe
               </button>
             </div>
