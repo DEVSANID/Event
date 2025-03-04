@@ -22,6 +22,8 @@ module.exports = {
         backgroundGrey: "#F8F8FA",
         white: "#FFFFFF",
         navyBlue: "#10107B",
+
+        sans: ['Inter', 'sans-serif'],
       }
     },
   },
